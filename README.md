@@ -38,3 +38,7 @@ Este dashboard foi construído com dados históricos que cobrem o período de **
 
 ---
 **Contacto:** [Seu Nome] | [Link do LinkedIn]
+---
+## ✉️ Contacto
+**Nome:** Tiago dos Santos Lameirão  
+**LinkedIn:** [linkedin.com/in/tiago-dossantos-lameirão](https://www.linkedin.com/in/tiago-dossantos-lameirão-878b90198)
