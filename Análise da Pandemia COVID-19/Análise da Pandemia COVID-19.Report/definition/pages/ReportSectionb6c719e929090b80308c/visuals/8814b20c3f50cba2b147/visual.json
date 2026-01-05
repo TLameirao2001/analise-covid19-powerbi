@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "8814b20c3f50cba2b147",
+  "position": {
+    "x": 370.11570247933884,
+    "y": 520.06611570247935,
+    "z": 4000,
+    "height": 95.206611570247929,
+    "width": 843.76859504132233
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Tiago dos Santos Lameirão",
+                    "textStyle": {
+                      "fontSize": "32pt",
+                      "color": "#fcb714"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

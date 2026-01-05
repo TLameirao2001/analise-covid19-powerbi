@@ -1,0 +1,25 @@
+relationship 6fcb7f2e-cc83-43fd-93d6-36441e655815
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Dados Covid'.date
+	toColumn: LocalDateTable_3947f8c3-9e5e-48da-9f48-86e2e09f732b.Date
+
+relationship 50b071eb-db72-4ddb-a7aa-d53dec16114c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendário.Data
+	toColumn: LocalDateTable_a1dc2d8c-5072-42cf-8075-90c6626ac215.Date
+
+relationship bb894383-3a63-4d5d-8224-3c87f1fd51b8
+	fromColumn: 'Dados Covid'.iso_code
+	toColumn: Localizações.iso_code
+
+relationship 944e4c5f-fb95-451f-a8ad-d1be90e5016f
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: Vacinas.iso_code
+	toColumn: Localizações.iso_code
+
+relationship 6d0a483c-eed0-4465-98d4-5eeff46ae373
+	isActive: false
+	fromColumn: 'Dados Covid'.location
+	toColumn: Vacinas.location
+

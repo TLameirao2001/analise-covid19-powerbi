@@ -1,0 +1,287 @@
+table 'Dados Covid'
+	lineageTag: 919a9896-544d-4fe5-9c8f-048325a15332
+
+	column iso_code
+		dataType: string
+		lineageTag: f4bc8994-7797-4b64-8b25-a9afcfa57082
+		summarizeBy: none
+		sourceColumn: iso_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column continent
+		dataType: string
+		lineageTag: 8ef63953-8372-410e-a81b-ee51f5fcebdb
+		summarizeBy: none
+		sourceColumn: continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column location
+		dataType: string
+		lineageTag: 4e0453e8-3385-4649-9079-ac2b6bcdf036
+		dataCategory: Country
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7ea1edb8-9dce-4964-b64a-5814a16d493f
+		summarizeBy: none
+		sourceColumn: date
+
+		variation Variação
+			isDefault
+			relationship: 6fcb7f2e-cc83-43fd-93d6-36441e655815
+			defaultHierarchy: LocalDateTable_3947f8c3-9e5e-48da-9f48-86e2e09f732b.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column total_cases
+		dataType: double
+		lineageTag: 204e2a89-f7c5-4380-a15c-6929e73652b6
+		summarizeBy: sum
+		sourceColumn: total_cases
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_cases
+		dataType: double
+		lineageTag: b6747a4d-f99b-40e2-8ace-8b193aeb939b
+		summarizeBy: sum
+		sourceColumn: new_cases
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_cases_smoothed
+		dataType: double
+		lineageTag: e777abcb-e07b-4d4c-90f2-c8a4d97e4b52
+		summarizeBy: sum
+		sourceColumn: new_cases_smoothed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_deaths
+		dataType: double
+		lineageTag: cb16cc49-ceec-432e-88eb-6cfc64a750ff
+		summarizeBy: sum
+		sourceColumn: total_deaths
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_deaths
+		dataType: double
+		lineageTag: 3e866499-715c-4de9-a2e5-7ebb1799f4b2
+		summarizeBy: sum
+		sourceColumn: new_deaths
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_deaths_smoothed
+		dataType: double
+		lineageTag: a287cf21-685f-4dc6-8dec-4b630d24e9ab
+		summarizeBy: sum
+		sourceColumn: new_deaths_smoothed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column reproduction_rate
+		dataType: double
+		lineageTag: 67d5ff6a-7b5c-44cd-bf69-0470a3bb25fc
+		summarizeBy: sum
+		sourceColumn: reproduction_rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_vaccinations
+		dataType: double
+		lineageTag: 9e578ea9-7fad-4ff9-8c78-4a34753a6c30
+		summarizeBy: sum
+		sourceColumn: total_vaccinations
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column people_vaccinated
+		dataType: double
+		lineageTag: a40444b5-f0b6-49c1-a8dd-006606c56ad7
+		summarizeBy: sum
+		sourceColumn: people_vaccinated
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column people_fully_vaccinated
+		dataType: double
+		lineageTag: 9438badf-2663-44f6-89cf-aa72a5c7bd45
+		summarizeBy: sum
+		sourceColumn: people_fully_vaccinated
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_boosters
+		dataType: double
+		lineageTag: 4cf84fbb-64f7-4636-ae5e-8010714945ef
+		summarizeBy: sum
+		sourceColumn: total_boosters
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_vaccinations
+		dataType: double
+		lineageTag: 6f68e1e0-f3cf-42ce-bfac-392c4c0ed450
+		summarizeBy: sum
+		sourceColumn: new_vaccinations
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_vaccinations_smoothed
+		dataType: double
+		lineageTag: 20734349-fc01-455b-87ab-8db0a427a32f
+		summarizeBy: sum
+		sourceColumn: new_vaccinations_smoothed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_vaccinations_per_hundred
+		dataType: double
+		lineageTag: 34890a6f-414a-4462-a5af-25ef09400e1f
+		summarizeBy: sum
+		sourceColumn: total_vaccinations_per_hundred
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column people_vaccinated_per_hundred
+		dataType: double
+		lineageTag: 7a493caf-ead1-452c-81e6-58554871837b
+		summarizeBy: sum
+		sourceColumn: people_vaccinated_per_hundred
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column people_fully_vaccinated_per_hundred
+		dataType: double
+		lineageTag: 33ba977a-7aff-4af8-a937-2fcf36d5350b
+		summarizeBy: sum
+		sourceColumn: people_fully_vaccinated_per_hundred
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column total_boosters_per_hundred
+		dataType: double
+		lineageTag: 6beb6a09-97cd-4116-b7b6-4fae1c8b11ee
+		summarizeBy: sum
+		sourceColumn: total_boosters_per_hundred
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_vaccinations_smoothed_per_million
+		dataType: double
+		lineageTag: 9ef0f179-5708-4469-adbd-a5a283bb6aae
+		summarizeBy: sum
+		sourceColumn: new_vaccinations_smoothed_per_million
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_people_vaccinated_smoothed
+		dataType: double
+		lineageTag: 13689a22-d4a2-4ef9-a379-fc572de3c5bf
+		summarizeBy: sum
+		sourceColumn: new_people_vaccinated_smoothed
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column new_people_vaccinated_smoothed_per_hundred
+		dataType: double
+		lineageTag: da38aa80-961b-421a-a27c-1dc8732c0784
+		summarizeBy: sum
+		sourceColumn: new_people_vaccinated_smoothed_per_hundred
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column population
+		dataType: double
+		lineageTag: d1c34f9d-5e32-41ba-af0b-0e3894f9242c
+		summarizeBy: sum
+		sourceColumn: population
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gdp_per_capita
+		dataType: double
+		lineageTag: e8c893fa-e047-41b4-a51d-9d36f3eaf0cf
+		summarizeBy: sum
+		sourceColumn: gdp_per_capita
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Selecionar Todos'
+		dataType: string
+		lineageTag: 90a6220f-228b-4472-a68e-d7fa3a1585d7
+		summarizeBy: none
+		sourceColumn: Selecionar Todos
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Dados Covid-02a0dfbf-518d-4824-9794-f785e66f6e42' = m
+		mode: import
+		source =
+				let
+				    Origem = Csv.Document(Web.Contents("https://covid.ourworldindata.org/data/owid-covid-data.csv"),[Delimiter=",", Columns=67, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Cabeçalhos Promovidos",".",",",Replacer.ReplaceText,{"total_cases", "new_cases", "new_cases_smoothed", "total_deaths", "new_deaths", "new_deaths_smoothed", "total_cases_per_million", "new_cases_per_million", "new_cases_smoothed_per_million", "total_deaths_per_million", "new_deaths_per_million", "new_deaths_smoothed_per_million", "reproduction_rate", "icu_patients", "icu_patients_per_million", "hosp_patients", "hosp_patients_per_million", "weekly_icu_admissions", "weekly_icu_admissions_per_million", "weekly_hosp_admissions", "weekly_hosp_admissions_per_million", "new_tests", "total_tests", "total_tests_per_thousand", "new_tests_per_thousand", "new_tests_smoothed", "new_tests_smoothed_per_thousand", "positive_rate", "tests_per_case", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters", "new_vaccinations", "new_vaccinations_smoothed", "total_vaccinations_per_hundred", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred", "total_boosters_per_hundred", "new_vaccinations_smoothed_per_million", "new_people_vaccinated_smoothed", "new_people_vaccinated_smoothed_per_hundred", "stringency_index", "population", "population_density", "median_age", "aged_65_older", "aged_70_older", "gdp_per_capita", "extreme_poverty", "cardiovasc_death_rate", "diabetes_prevalence", "female_smokers", "male_smokers", "handwashing_facilities", "hospital_beds_per_thousand", "life_expectancy", "human_development_index", "excess_mortality_cumulative_absolute", "excess_mortality_cumulative", "excess_mortality", "excess_mortality_cumulative_per_million"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Valor Substituído",{{"total_cases", type number}, {"new_cases", type number}, {"new_cases_smoothed", type number}, {"total_deaths", type number}, {"new_deaths", type number}, {"new_deaths_smoothed", type number}, {"total_cases_per_million", type number}, {"new_cases_per_million", type number}, {"new_cases_smoothed_per_million", type number}, {"total_deaths_per_million", type number}, {"new_deaths_per_million", type number}, {"new_deaths_smoothed_per_million", type number}, {"reproduction_rate", type number}, {"icu_patients", type number}, {"icu_patients_per_million", type number}, {"hosp_patients", type number}, {"hosp_patients_per_million", type number}, {"weekly_icu_admissions", type number}, {"weekly_icu_admissions_per_million", type number}, {"weekly_hosp_admissions", type number}, {"weekly_hosp_admissions_per_million", type number}, {"new_tests", type number}, {"total_tests", type number}, {"total_tests_per_thousand", type number}, {"new_tests_per_thousand", type number}, {"new_tests_smoothed", type number}, {"new_tests_smoothed_per_thousand", type number}, {"positive_rate", type number}, {"tests_per_case", type number}, {"total_vaccinations", type number}, {"people_vaccinated", type number}, {"people_fully_vaccinated", type number}, {"total_boosters", type number}, {"new_vaccinations", type number}, {"new_vaccinations_smoothed", type number}, {"total_vaccinations_per_hundred", type number}, {"people_vaccinated_per_hundred", type number}, {"people_fully_vaccinated_per_hundred", type number}, {"total_boosters_per_hundred", type number}, {"new_vaccinations_smoothed_per_million", type number}, {"new_people_vaccinated_smoothed", type number}, {"new_people_vaccinated_smoothed_per_hundred", type number}, {"stringency_index", type number}, {"population", type number}, {"population_density", type number}, {"median_age", type number}, {"aged_65_older", type number}, {"aged_70_older", type number}, {"gdp_per_capita", type number}, {"extreme_poverty", type number}, {"cardiovasc_death_rate", type number}, {"diabetes_prevalence", type number}, {"female_smokers", type number}, {"male_smokers", type number}, {"handwashing_facilities", type number}, {"hospital_beds_per_thousand", type number}, {"life_expectancy", type number}, {"human_development_index", type number}, {"excess_mortality_cumulative_absolute", type number}, {"excess_mortality_cumulative", type number}, {"excess_mortality", type number}, {"excess_mortality_cumulative_per_million", type number}, {"date", type date}}),
+				    #"Personalizado Adicionado" = Table.AddColumn(#"Tipo Alterado", "Selecionar Todos", each "Todos"),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Personalizado Adicionado",{"iso_code", "continent", "location", "date", "total_cases", "new_cases", "new_cases_smoothed", "total_deaths", "new_deaths", "new_deaths_smoothed", "reproduction_rate", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters", "new_vaccinations", "new_vaccinations_smoothed", "total_vaccinations_per_hundred", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred", "total_boosters_per_hundred", "new_vaccinations_smoothed_per_million", "new_people_vaccinated_smoothed", "new_people_vaccinated_smoothed_per_hundred", "population", "gdp_per_capita", "Selecionar Todos"})
+				in
+				    #"Outras Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

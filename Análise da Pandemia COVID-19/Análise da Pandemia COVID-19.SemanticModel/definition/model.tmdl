@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-PT
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Dados Covid","Medidas","Calendário","Localizações","Vacinas"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Dados Covid'
+ref table DateTableTemplate_a9e4bc25-e223-4ba1-af5c-dede81c946e2
+ref table LocalDateTable_3947f8c3-9e5e-48da-9f48-86e2e09f732b
+ref table Medidas
+ref table Calendário
+ref table LocalDateTable_a1dc2d8c-5072-42cf-8075-90c6626ac215
+ref table Localizações
+ref table Vacinas
+
+ref cultureInfo pt-PT
+ref cultureInfo en-US
+

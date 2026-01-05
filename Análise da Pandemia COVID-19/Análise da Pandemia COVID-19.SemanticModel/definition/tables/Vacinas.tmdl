@@ -1,0 +1,40 @@
+table Vacinas
+	lineageTag: 0106bd70-62c3-4926-94c2-3982fddabcd5
+
+	column iso_code
+		dataType: string
+		lineageTag: bebd5572-9faa-4ccf-a2eb-4dccfc7c3951
+		summarizeBy: none
+		sourceColumn: iso_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column location
+		dataType: string
+		lineageTag: 309bf54c-5b8f-4413-be47-c2454315c8b1
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = Automatic
+
+	column vaccines
+		dataType: string
+		lineageTag: 01f5ac70-2684-4e48-9f52-acc9a34ae766
+		summarizeBy: none
+		sourceColumn: vaccines
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Vacinas-63bb3b58-2cff-4b31-8762-43f33fb99656 = m
+		mode: import
+		source =
+				let
+				    Origem = Csv.Document(Web.Contents("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations.csv?fbclid=IwAR0K_gkaVX2EPyTYJ4Fr3L2neEJENbvK4ZcmRQaQ1jlFF1Z4wkNYTf1a6SE"),[Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"location", type text}, {"iso_code", type text}, {"vaccines", type text}, {"last_observation_date", type date}, {"source_name", type text}, {"source_website", type text}}),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Tipo Alterado",{"iso_code", "location", "vaccines"})
+				in
+				    #"Outras Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

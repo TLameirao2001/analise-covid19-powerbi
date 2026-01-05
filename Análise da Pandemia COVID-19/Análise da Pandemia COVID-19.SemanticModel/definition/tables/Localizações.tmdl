@@ -1,0 +1,43 @@
+table Localizações
+	lineageTag: a661ffbf-3891-4f74-8da7-336358e0b6cc
+
+	column iso_code
+		dataType: string
+		lineageTag: 10ea3ecf-119c-47b0-a51d-ff644ff99445
+		summarizeBy: none
+		sourceColumn: iso_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column continent
+		dataType: string
+		lineageTag: 99c691f3-4a7f-4c7a-9e96-39e390cb6616
+		summarizeBy: none
+		sourceColumn: continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column location
+		dataType: string
+		lineageTag: 68bef0d2-c452-4945-bad1-1c61768ec2d4
+		summarizeBy: none
+		sourceColumn: location
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Localizações-d753d1e7-8b9a-4561-9e36-8216d8e3d722 = m
+		mode: import
+		source =
+				let
+				    Origem = Csv.Document(Web.Contents("https://covid.ourworldindata.org/data/owid-covid-data.csv"),[Delimiter=",", Columns=67, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Cabeçalhos Promovidos",".",",",Replacer.ReplaceText,{"total_cases", "new_cases", "new_cases_smoothed", "total_deaths", "new_deaths", "new_deaths_smoothed", "total_cases_per_million", "new_cases_per_million", "new_cases_smoothed_per_million", "total_deaths_per_million", "new_deaths_per_million", "new_deaths_smoothed_per_million", "reproduction_rate", "icu_patients", "icu_patients_per_million", "hosp_patients", "hosp_patients_per_million", "weekly_icu_admissions", "weekly_icu_admissions_per_million", "weekly_hosp_admissions", "weekly_hosp_admissions_per_million", "new_tests", "total_tests", "total_tests_per_thousand", "new_tests_per_thousand", "new_tests_smoothed", "new_tests_smoothed_per_thousand", "positive_rate", "tests_per_case", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters", "new_vaccinations", "new_vaccinations_smoothed", "total_vaccinations_per_hundred", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred", "total_boosters_per_hundred", "new_vaccinations_smoothed_per_million", "new_people_vaccinated_smoothed", "new_people_vaccinated_smoothed_per_hundred", "stringency_index", "population", "population_density", "median_age", "aged_65_older", "aged_70_older", "gdp_per_capita", "extreme_poverty", "cardiovasc_death_rate", "diabetes_prevalence", "female_smokers", "male_smokers", "handwashing_facilities", "hospital_beds_per_thousand", "life_expectancy", "human_development_index", "excess_mortality_cumulative_absolute", "excess_mortality_cumulative", "excess_mortality", "excess_mortality_cumulative_per_million"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Valor Substituído",{{"total_cases", type number}, {"new_cases", type number}, {"new_cases_smoothed", type number}, {"total_deaths", type number}, {"new_deaths", type number}, {"new_deaths_smoothed", type number}, {"total_cases_per_million", type number}, {"new_cases_per_million", type number}, {"new_cases_smoothed_per_million", type number}, {"total_deaths_per_million", type number}, {"new_deaths_per_million", type number}, {"new_deaths_smoothed_per_million", type number}, {"reproduction_rate", type number}, {"icu_patients", type number}, {"icu_patients_per_million", type number}, {"hosp_patients", type number}, {"hosp_patients_per_million", type number}, {"weekly_icu_admissions", type number}, {"weekly_icu_admissions_per_million", type number}, {"weekly_hosp_admissions", type number}, {"weekly_hosp_admissions_per_million", type number}, {"new_tests", type number}, {"total_tests", type number}, {"total_tests_per_thousand", type number}, {"new_tests_per_thousand", type number}, {"new_tests_smoothed", type number}, {"new_tests_smoothed_per_thousand", type number}, {"positive_rate", type number}, {"tests_per_case", type number}, {"total_vaccinations", type number}, {"people_vaccinated", type number}, {"people_fully_vaccinated", type number}, {"total_boosters", type number}, {"new_vaccinations", type number}, {"new_vaccinations_smoothed", type number}, {"total_vaccinations_per_hundred", type number}, {"people_vaccinated_per_hundred", type number}, {"people_fully_vaccinated_per_hundred", type number}, {"total_boosters_per_hundred", type number}, {"new_vaccinations_smoothed_per_million", type number}, {"new_people_vaccinated_smoothed", type number}, {"new_people_vaccinated_smoothed_per_hundred", type number}, {"stringency_index", type number}, {"population", type number}, {"population_density", type number}, {"median_age", type number}, {"aged_65_older", type number}, {"aged_70_older", type number}, {"gdp_per_capita", type number}, {"extreme_poverty", type number}, {"cardiovasc_death_rate", type number}, {"diabetes_prevalence", type number}, {"female_smokers", type number}, {"male_smokers", type number}, {"handwashing_facilities", type number}, {"hospital_beds_per_thousand", type number}, {"life_expectancy", type number}, {"human_development_index", type number}, {"excess_mortality_cumulative_absolute", type number}, {"excess_mortality_cumulative", type number}, {"excess_mortality", type number}, {"excess_mortality_cumulative_per_million", type number}, {"date", type date}}),
+				    #"Personalizado Adicionado" = Table.AddColumn(#"Tipo Alterado", "Selecionar Todos", each "Todos"),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Personalizado Adicionado",{"iso_code", "continent", "location"}),
+				    #"Duplicados Removidos" = Table.Distinct(#"Outras Colunas Removidas", {"iso_code"})
+				in
+				    #"Duplicados Removidos"
+
+	annotation PBI_ResultType = Table
+

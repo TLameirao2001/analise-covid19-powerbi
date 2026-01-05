@@ -1,0 +1,67 @@
+table Calendário
+	lineageTag: a28922bf-6cd1-4bdc-bc85-45e5fcacbdff
+
+	column Data
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 37196559-eb8d-4556-81a2-37772b843abe
+		summarizeBy: none
+		sourceColumn: Data
+
+		variation Variação
+			isDefault
+			relationship: 50b071eb-db72-4ddb-a7aa-d53dec16114c
+			defaultHierarchy: LocalDateTable_a1dc2d8c-5072-42cf-8075-90c6626ac215.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: e9253b75-c8f6-4ce9-8c0b-3caf09ac89e0
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ffe99b6-fb11-464a-bcf4-51e692b489d6
+		summarizeBy: sum
+		sourceColumn: Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Nome do Mês'
+		dataType: string
+		lineageTag: d56d0c0a-be00-4667-9d22-1bbc2f9c0e8a
+		summarizeBy: none
+		sourceColumn: Nome do Mês
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendário-b7d81d2b-7d33-40ae-ba18-60c29e157811 = m
+		mode: import
+		source =
+				let
+				    Origem = Csv.Document(Web.Contents("https://covid.ourworldindata.org/data/owid-covid-data.csv"),[Delimiter=",", Columns=67, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Origem, [PromoteAllScalars=true]),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Cabeçalhos Promovidos",".",",",Replacer.ReplaceText,{"total_cases", "new_cases", "new_cases_smoothed", "total_deaths", "new_deaths", "new_deaths_smoothed", "total_cases_per_million", "new_cases_per_million", "new_cases_smoothed_per_million", "total_deaths_per_million", "new_deaths_per_million", "new_deaths_smoothed_per_million", "reproduction_rate", "icu_patients", "icu_patients_per_million", "hosp_patients", "hosp_patients_per_million", "weekly_icu_admissions", "weekly_icu_admissions_per_million", "weekly_hosp_admissions", "weekly_hosp_admissions_per_million", "new_tests", "total_tests", "total_tests_per_thousand", "new_tests_per_thousand", "new_tests_smoothed", "new_tests_smoothed_per_thousand", "positive_rate", "tests_per_case", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters", "new_vaccinations", "new_vaccinations_smoothed", "total_vaccinations_per_hundred", "people_vaccinated_per_hundred", "people_fully_vaccinated_per_hundred", "total_boosters_per_hundred", "new_vaccinations_smoothed_per_million", "new_people_vaccinated_smoothed", "new_people_vaccinated_smoothed_per_hundred", "stringency_index", "population", "population_density", "median_age", "aged_65_older", "aged_70_older", "gdp_per_capita", "extreme_poverty", "cardiovasc_death_rate", "diabetes_prevalence", "female_smokers", "male_smokers", "handwashing_facilities", "hospital_beds_per_thousand", "life_expectancy", "human_development_index", "excess_mortality_cumulative_absolute", "excess_mortality_cumulative", "excess_mortality", "excess_mortality_cumulative_per_million"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Valor Substituído",{{"total_cases", type number}, {"new_cases", type number}, {"new_cases_smoothed", type number}, {"total_deaths", type number}, {"new_deaths", type number}, {"new_deaths_smoothed", type number}, {"total_cases_per_million", type number}, {"new_cases_per_million", type number}, {"new_cases_smoothed_per_million", type number}, {"total_deaths_per_million", type number}, {"new_deaths_per_million", type number}, {"new_deaths_smoothed_per_million", type number}, {"reproduction_rate", type number}, {"icu_patients", type number}, {"icu_patients_per_million", type number}, {"hosp_patients", type number}, {"hosp_patients_per_million", type number}, {"weekly_icu_admissions", type number}, {"weekly_icu_admissions_per_million", type number}, {"weekly_hosp_admissions", type number}, {"weekly_hosp_admissions_per_million", type number}, {"new_tests", type number}, {"total_tests", type number}, {"total_tests_per_thousand", type number}, {"new_tests_per_thousand", type number}, {"new_tests_smoothed", type number}, {"new_tests_smoothed_per_thousand", type number}, {"positive_rate", type number}, {"tests_per_case", type number}, {"total_vaccinations", type number}, {"people_vaccinated", type number}, {"people_fully_vaccinated", type number}, {"total_boosters", type number}, {"new_vaccinations", type number}, {"new_vaccinations_smoothed", type number}, {"total_vaccinations_per_hundred", type number}, {"people_vaccinated_per_hundred", type number}, {"people_fully_vaccinated_per_hundred", type number}, {"total_boosters_per_hundred", type number}, {"new_vaccinations_smoothed_per_million", type number}, {"new_people_vaccinated_smoothed", type number}, {"new_people_vaccinated_smoothed_per_hundred", type number}, {"stringency_index", type number}, {"population", type number}, {"population_density", type number}, {"median_age", type number}, {"aged_65_older", type number}, {"aged_70_older", type number}, {"gdp_per_capita", type number}, {"extreme_poverty", type number}, {"cardiovasc_death_rate", type number}, {"diabetes_prevalence", type number}, {"female_smokers", type number}, {"male_smokers", type number}, {"handwashing_facilities", type number}, {"hospital_beds_per_thousand", type number}, {"life_expectancy", type number}, {"human_development_index", type number}, {"excess_mortality_cumulative_absolute", type number}, {"excess_mortality_cumulative", type number}, {"excess_mortality", type number}, {"excess_mortality_cumulative_per_million", type number}, {"date", type date}}),
+				    #"Personalizado Adicionado" = Table.AddColumn(#"Tipo Alterado", "Selecionar Todos", each "Todos"),
+				    #"Outras Colunas Removidas" = Table.SelectColumns(#"Personalizado Adicionado",{"date"}),
+				    #"Duplicados Removidos" = Table.Distinct(#"Outras Colunas Removidas"),
+				    #"Colunas com Nome Mudado" = Table.RenameColumns(#"Duplicados Removidos",{{"date", "Data"}}),
+				    #"Ano Inserido" = Table.AddColumn(#"Colunas com Nome Mudado", "Ano", each Date.Year([Data]), Int64.Type),
+				    #"Mês Inserido" = Table.AddColumn(#"Ano Inserido", "Mês", each Date.Month([Data]), Int64.Type),
+				    #"Nome do Mês Inserido" = Table.AddColumn(#"Mês Inserido", "Nome do Mês", each Date.MonthName([Data]), type text),
+				    #"Fim de Semana Inserido" = Table.AddColumn(#"Nome do Mês Inserido", "Fim da Semana", each Date.EndOfWeek([Data]), type date),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Fim de Semana Inserido",{"Fim da Semana"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

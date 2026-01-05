@@ -1,0 +1,230 @@
+table Medidas
+	lineageTag: 13f1679b-868a-4bcb-b463-82ed6fbf7fb5
+
+	measure 'Total Casos' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[total_cases])
+			)
+		formatString: #,0.00
+		lineageTag: 89ca0e84-62ed-4132-a4b8-1d53e58272d5
+
+		changedProperty = FormatString
+
+	measure 'Novos Casos Diários' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[new_cases])
+			)
+		formatString: #,0.00
+		lineageTag: 39de4245-f2ae-4389-914b-502e6f367190
+
+		changedProperty = FormatString
+
+	measure 'Total Mortes' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[total_deaths])
+			)
+		formatString: #,0.00
+		lineageTag: fec5afaa-c6b1-407b-bdee-71d05d27b2b8
+
+		changedProperty = FormatString
+
+	measure 'Novas Mortes Diárias' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[new_deaths])
+			)
+		formatString: #,0.00
+		lineageTag: f5d3987f-d57f-419b-85d3-a8a3de791f05
+
+		changedProperty = FormatString
+
+	measure 'Novos Casos Diários MM7D' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[new_cases_smoothed])
+			)
+		formatString: #,0.00
+		lineageTag: 09934e24-37bf-455c-8d9d-98be003b2e8b
+
+		changedProperty = FormatString
+
+	measure 'Novas Mortes Diárias MM7D' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[new_deaths_smoothed])
+			)
+		formatString: #,0.00
+		lineageTag: 83cf0f54-177b-4a48-88b1-ddf0754bca69
+
+		changedProperty = FormatString
+
+	measure 'Rácio Reprodução' =
+			
+			VAR Pais =
+			    LASTNONBLANKVALUE(
+			        'Dados Covid'[date],
+			         MAX('Dados Covid'[reproduction_rate])
+			    )
+			VAR Mundo = CALCULATE(
+			                LASTNONBLANKVALUE(
+			                    'Dados Covid'[date],
+			                    MAX('Dados Covid'[reproduction_rate])
+			                ),
+			            'Dados Covid'[location] = "World"
+			            )
+			RETURN
+			IF(
+			    HASONEVALUE('Dados Covid'[location]),
+			    Pais,
+			    Mundo
+			)
+		formatString: #,0.00
+		lineageTag: ab11957e-d9d9-4a47-b060-86bbaf5a0d3e
+
+		changedProperty = FormatString
+
+	measure 'Total Vacinados' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[people_vaccinated])
+			)
+		lineageTag: 5dc9ec05-7c97-4ea6-9ff7-90be2b503d96
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Novos Vacinados Diários' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[people_vaccinated])
+			)
+		lineageTag: 43e2a054-cc9b-4710-a83d-ceb83235dd7c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Novos Vacinados Diários MM7D' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[new_people_vaccinated_smoothed])
+			)
+		lineageTag: dba87628-74a9-44d8-8a19-b61175314ec3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Percentagem de Vacinados' =
+			
+			VAR Pais =
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[population])
+			)
+			return
+			DIVIDE([Total Vacinados], Pais,0)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: b7424aed-ac48-44e5-8c51-caea23df05d0
+
+		changedProperty = FormatString
+
+	measure 'Vacinados por Milhão' =
+			
+			LASTNONBLANKVALUE(
+			    'Dados Covid'[date],
+			    MAX('Dados Covid'[people_fully_vaccinated_per_hundred])
+			) * 10000
+		lineageTag: 7276ad88-72bf-40aa-b40a-169638ed6954
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Vacinas = ```
+			
+			CALCULATE(
+			    LASTNONBLANKVALUE(
+			        Vacinas[vaccines],
+			        MAX(Vacinas[vaccines])
+			        ),
+			        
+			        Vacinas[iso_code]= LASTNONBLANKVALUE(
+			            'Dados Covid'[date],
+			            MAX('Dados Covid'[iso_code])
+			        )
+			)
+			```
+		lineageTag: 56a08206-b579-44d1-8164-8ddad6409b26
+
+	measure 'Total Vacinados Asia' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="Asia")
+		lineageTag: 12abf72e-8f49-4452-a5bc-582073de8a22
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Vacinados South America' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="South America")
+		lineageTag: 8d17857f-6c87-42ba-a6ed-9340ad2704fc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Vacinados Europe' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="Europe")
+		lineageTag: e8550df7-46f6-4016-89f1-4494fa025eeb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Vacinados Oceania' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="Oceania")
+		lineageTag: 50d1e94d-82d0-474a-93e0-f45bdfa48ebd
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Vacinados North America' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="North America")
+		lineageTag: 7f8572af-bfa3-4824-9685-758b918b41fa
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Vacinados Africa' =
+			
+			CALCULATE(
+			    MAX('Dados Covid'[people_vaccinated]),
+			    'Dados Covid'[location]="Africa")
+		lineageTag: 9c7adcca-a723-4328-96b3-99f2ef7904f9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Medidas-05d7b250-c9db-4575-bf47-687a6d60e026 = m
+		mode: import
+		source =
+				let
+				    Origem = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Coluna1 = _t]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(Origem,{{"Coluna1", type text}}),
+				    #"Colunas Removidas" = Table.RemoveColumns(#"Tipo Alterado",{"Coluna1"})
+				in
+				    #"Colunas Removidas"
+
+	annotation PBI_ResultType = Table
+

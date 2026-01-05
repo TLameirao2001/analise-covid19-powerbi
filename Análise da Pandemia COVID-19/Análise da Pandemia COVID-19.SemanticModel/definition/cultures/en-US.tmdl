@@ -1,0 +1,5653 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "dados_covid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dados covid": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dado covid": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.iso_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "iso_code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "iso code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "iso_code": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "iso id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "iso key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.continent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "continent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "continent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "landmass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "landform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "island": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mainland": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "location"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "location": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "setting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "spot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Localização": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Data": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.date.variação.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "VariationSource": "date",
+			          "VariationSet": "Variação",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.date.variação.date_hierarchy.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "VariationSource": "date",
+			          "VariationSet": "Variação",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.date.variação.date_hierarchy.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "VariationSource": "date",
+			          "VariationSet": "Variação",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.date.variação.date_hierarchy.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "VariationSource": "date",
+			          "VariationSet": "Variação",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.date.variação.date_hierarchy.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "VariationSource": "date",
+			          "VariationSet": "Variação",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "dados_covid.total_case": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_cases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total case": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_cases": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall case": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total instance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total event": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total occasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total incident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_case": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_cases"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new case": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_cases": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "case": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "new situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "situation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "new circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new instance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new event": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new occasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new incident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "circumstance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "instance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "event": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_case_smoothed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_cases_smoothed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new case smoothed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_cases_smoothed": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "new situation smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new circumstance smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new instance smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new event smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new occasion smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new incident smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new illustration smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "new paradigm smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "new item smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        },
+			        {
+			          "new example smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.total_death": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_deaths"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total death": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_deaths": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "death": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall death": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total demise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total passing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_death": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_deaths"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new death": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_deaths": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "death": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "new expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "new bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "new loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "expiry": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bereavement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "loss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "new demise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new passing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new decease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "demise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_death_smoothed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_deaths_smoothed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new death smoothed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_deaths_smoothed": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "new expiry smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new bereavement smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new loss smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new demise smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new passing smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new decease smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new fatality smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "new casualty smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "new mortality smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "new killing smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.reproduction_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "reproduction_rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "reproduction rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reproduction_rate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "reproduction degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reproduction frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reproduction percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reproduction ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "reproduction quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reproduction amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.total_vaccination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_vaccinations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total vaccination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_vaccinations": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vaccination": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate vaccination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall vaccination": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total inoculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total immunization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total injection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "inoculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "immunization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "injection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "total jab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.person_vaccinated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "people_vaccinated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person vaccinated": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "people_vaccinated": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "creature vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "being vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "individual vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "one vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "soul vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "somebody vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "type vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "party vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "human vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "self vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.person_fully_vaccinated": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "people_fully_vaccinated"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person fully vaccinated": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "people_fully_vaccinated": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "creature fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "being fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "individual fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "one fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "soul fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "somebody fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "type fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "party fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "human fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "self fully vaccinated": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.total_booster": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_boosters"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total booster": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_boosters": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "booster": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate booster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall booster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total promoter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total supporter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total admirer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total idolizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total rooter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total groupie": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "promoter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "supporter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_vaccination": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_vaccinations"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new vaccination": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_vaccinations": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vaccination": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "new inoculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "new immunization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "new injection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "inoculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "immunization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "injection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "new jab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "new shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "jab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "shot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_vaccination_smoothed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_vaccinations_smoothed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new vaccination smoothed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_vaccinations_smoothed": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "new inoculation smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new immunization smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new injection smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "new jab smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "new shot smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.total_vaccination_per_hundred": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_vaccinations_per_hundred"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total vaccination per hundred": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_vaccinations_per_hundred": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vaccination": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate vaccination per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall vaccination per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total inoculation per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total immunization per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total injection per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total jab per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "total shot per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "inoculation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "immunization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "injection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.person_vaccinated_per_hundred": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "people_vaccinated_per_hundred"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person vaccinated per hundred": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "people_vaccinated_per_hundred": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "creature vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "being vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "individual vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "one vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "soul vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "somebody vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "type vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "party vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "human vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "self vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.person_fully_vaccinated_per_hundred": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "people_fully_vaccinated_per_hundred"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "person fully vaccinated per hundred": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "people_fully_vaccinated_per_hundred": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "creature fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "being fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "individual fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "one fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "soul fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "somebody fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "type fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "party fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "human fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "self fully vaccinated per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.total_booster_per_hundred": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "total_boosters_per_hundred"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total booster per hundred": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total_boosters_per_hundred": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "booster": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate booster per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall booster per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "total promoter per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total supporter per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total admirer per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total idolizer per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total rooter per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total groupie per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "total fan per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "total advocate per hundred": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_vaccination_smoothed_per_million": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_vaccinations_smoothed_per_million"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new vaccination smoothed per million": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_vaccinations_smoothed_per_million": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "new inoculation smoothed per million": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "new immunization smoothed per million": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "new injection smoothed per million": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        },
+			        {
+			          "new jab smoothed per million": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "new shot smoothed per million": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_person_vaccinated_smoothed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_people_vaccinated_smoothed"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new person vaccinated smoothed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_people_vaccinated_smoothed": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "new creature vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "new being vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new individual vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new one vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new soul vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new somebody vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new type vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new party vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new human vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "new self vaccinated smoothed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.new_person_vaccinated_smoothed_per_hundred": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "new_people_vaccinated_smoothed_per_hundred"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "new person vaccinated smoothed per hundred": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "new_people_vaccinated_smoothed_per_hundred": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "dados_covid.gdp_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dados Covid",
+			          "ConceptualProperty": "gdp_per_capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gdp per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gdp_per_capita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "medida.total_casos_cartão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Total Casos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total casos (cartão)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total casos": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "aggregate caso (cartão)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall caso (cartão)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "OfficeThesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "medida.novos_casos_diários_cartão": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Medidas",
+			          "ConceptualProperty": "Novos Casos Diários"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "novos casos diários (cartão)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "novos casos diários": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "dados_covid_date_variação_date_hierarchy_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid.date.variação.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy"
+			          }
+			        },
+			        "dados_covid.date.variação.date_hierarchy.quarter": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid.date.variação.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date.variação.date_hierarchy.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_date_variação_date_hierarchy_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid.date.variação.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy"
+			          }
+			        },
+			        "dados_covid.date.variação.date_hierarchy.year": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid.date.variação.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date.variação.date_hierarchy.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_date_has_variação_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid.date": {
+			          "Target": {
+			            "Entity": "dados_covid.date"
+			          }
+			        },
+			        "dados_covid.date.variação.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid.date"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date.variação.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_medida_novos_casos_diários_cartão": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "medida.novos_casos_diários_cartão": {
+			          "Target": {
+			            "Entity": "medida.novos_casos_diários_cartão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "medida.novos_casos_diários_cartão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_medida_total_casos_cartão": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "medida.total_casos_cartão": {
+			          "Target": {
+			            "Entity": "medida.total_casos_cartão"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "medida.total_casos_cartão"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_excess_mortality_cumulative_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.excess_mortality_cumulative_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.excess_mortality_cumulative_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.excess_mortality_cumulative_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_excess_mortality": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.excess_mortality": {
+			          "Target": {
+			            "Entity": "dados_covid.excess_mortality"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.excess_mortality"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_excess_mortality_cumulative": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.excess_mortality_cumulative": {
+			          "Target": {
+			            "Entity": "dados_covid.excess_mortality_cumulative"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.excess_mortality_cumulative"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_excess_mortality_cumulative_absolute": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.excess_mortality_cumulative_absolute": {
+			          "Target": {
+			            "Entity": "dados_covid.excess_mortality_cumulative_absolute"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.excess_mortality_cumulative_absolute"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_human_development_index": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.human_development_index": {
+			          "Target": {
+			            "Entity": "dados_covid.human_development_index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.human_development_index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_life_expectancy": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.life_expectancy": {
+			          "Target": {
+			            "Entity": "dados_covid.life_expectancy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.life_expectancy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_hospital_bed_per_thousand": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.hospital_bed_per_thousand": {
+			          "Target": {
+			            "Entity": "dados_covid.hospital_bed_per_thousand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.hospital_bed_per_thousand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_handwashing_facility": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.handwashing_facility": {
+			          "Target": {
+			            "Entity": "dados_covid.handwashing_facility"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.handwashing_facility"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_male_smoker": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.male_smoker": {
+			          "Target": {
+			            "Entity": "dados_covid.male_smoker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.male_smoker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_female_smoker": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.female_smoker": {
+			          "Target": {
+			            "Entity": "dados_covid.female_smoker"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.female_smoker"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_diabetes_prevalence": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.diabetes_prevalence": {
+			          "Target": {
+			            "Entity": "dados_covid.diabetes_prevalence"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.diabetes_prevalence"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_cardiovasc_death_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.cardiovasc_death_rate": {
+			          "Target": {
+			            "Entity": "dados_covid.cardiovasc_death_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.cardiovasc_death_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_extreme_poverty": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.extreme_poverty": {
+			          "Target": {
+			            "Entity": "dados_covid.extreme_poverty"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.extreme_poverty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_gdp_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.gdp_per_capita": {
+			          "Target": {
+			            "Entity": "dados_covid.gdp_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.gdp_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_aged_70_older": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.aged_70_older": {
+			          "Target": {
+			            "Entity": "dados_covid.aged_70_older"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.aged_70_older"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_aged_65_older": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.aged_65_older": {
+			          "Target": {
+			            "Entity": "dados_covid.aged_65_older"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.aged_65_older"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_median_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.median_age": {
+			          "Target": {
+			            "Entity": "dados_covid.median_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.median_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dados_covid.median_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_population_density": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.population_density": {
+			          "Target": {
+			            "Entity": "dados_covid.population_density"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.population_density"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_population": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.population": {
+			          "Target": {
+			            "Entity": "dados_covid.population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Adjectives": [
+			              {
+			                "large": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "big": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "populated": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "small": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "dados_covid.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_stringency_index": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.stringency_index": {
+			          "Target": {
+			            "Entity": "dados_covid.stringency_index"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.stringency_index"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_person_vaccinated_smoothed_per_hundred": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_person_vaccinated_smoothed_per_hundred": {
+			          "Target": {
+			            "Entity": "dados_covid.new_person_vaccinated_smoothed_per_hundred"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_person_vaccinated_smoothed_per_hundred"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_person_vaccinated_smoothed": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_person_vaccinated_smoothed": {
+			          "Target": {
+			            "Entity": "dados_covid.new_person_vaccinated_smoothed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_person_vaccinated_smoothed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_vaccination_smoothed_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_vaccination_smoothed_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.new_vaccination_smoothed_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_vaccination_smoothed_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_booster_per_hundred": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_booster_per_hundred": {
+			          "Target": {
+			            "Entity": "dados_covid.total_booster_per_hundred"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_booster_per_hundred"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_person_fully_vaccinated_per_hundred": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.person_fully_vaccinated_per_hundred": {
+			          "Target": {
+			            "Entity": "dados_covid.person_fully_vaccinated_per_hundred"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.person_fully_vaccinated_per_hundred"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_person_vaccinated_per_hundred": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.person_vaccinated_per_hundred": {
+			          "Target": {
+			            "Entity": "dados_covid.person_vaccinated_per_hundred"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.person_vaccinated_per_hundred"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_vaccination_per_hundred": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_vaccination_per_hundred": {
+			          "Target": {
+			            "Entity": "dados_covid.total_vaccination_per_hundred"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_vaccination_per_hundred"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_vaccination_smoothed": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_vaccination_smoothed": {
+			          "Target": {
+			            "Entity": "dados_covid.new_vaccination_smoothed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_vaccination_smoothed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_vaccination": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_vaccination": {
+			          "Target": {
+			            "Entity": "dados_covid.new_vaccination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_vaccination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_booster": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_booster": {
+			          "Target": {
+			            "Entity": "dados_covid.total_booster"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_booster"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_person_fully_vaccinated": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.person_fully_vaccinated": {
+			          "Target": {
+			            "Entity": "dados_covid.person_fully_vaccinated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.person_fully_vaccinated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_person_vaccinated": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.person_vaccinated": {
+			          "Target": {
+			            "Entity": "dados_covid.person_vaccinated"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.person_vaccinated"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_vaccination": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_vaccination": {
+			          "Target": {
+			            "Entity": "dados_covid.total_vaccination"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_vaccination"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_tests_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.tests_unit": {
+			          "Target": {
+			            "Entity": "dados_covid.tests_unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.tests_unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_test_per_case": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.test_per_case": {
+			          "Target": {
+			            "Entity": "dados_covid.test_per_case"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.test_per_case"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_positive_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.positive_rate": {
+			          "Target": {
+			            "Entity": "dados_covid.positive_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.positive_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_test_smoothed_per_thousand": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_test_smoothed_per_thousand": {
+			          "Target": {
+			            "Entity": "dados_covid.new_test_smoothed_per_thousand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_test_smoothed_per_thousand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_test_smoothed": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_test_smoothed": {
+			          "Target": {
+			            "Entity": "dados_covid.new_test_smoothed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_test_smoothed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_test_per_thousand": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_test_per_thousand": {
+			          "Target": {
+			            "Entity": "dados_covid.new_test_per_thousand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_test_per_thousand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_test_per_thousand": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_test_per_thousand": {
+			          "Target": {
+			            "Entity": "dados_covid.total_test_per_thousand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_test_per_thousand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_test": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_test": {
+			          "Target": {
+			            "Entity": "dados_covid.new_test"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_test"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_test": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_test": {
+			          "Target": {
+			            "Entity": "dados_covid.total_test"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_test"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_weekly_hosp_admission_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.weekly_hosp_admission_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.weekly_hosp_admission_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.weekly_hosp_admission_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_weekly_hosp_admission": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.weekly_hosp_admission": {
+			          "Target": {
+			            "Entity": "dados_covid.weekly_hosp_admission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.weekly_hosp_admission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_weekly_icu_admission_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.weekly_icu_admission_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.weekly_icu_admission_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.weekly_icu_admission_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_weekly_icu_admission": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.weekly_icu_admission": {
+			          "Target": {
+			            "Entity": "dados_covid.weekly_icu_admission"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.weekly_icu_admission"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_hosp_patient_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.hosp_patient_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.hosp_patient_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.hosp_patient_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_hosp_patient": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.hosp_patient": {
+			          "Target": {
+			            "Entity": "dados_covid.hosp_patient"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.hosp_patient"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_icu_patient_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.icu_patient_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.icu_patient_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.icu_patient_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_icu_patient": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.icu_patient": {
+			          "Target": {
+			            "Entity": "dados_covid.icu_patient"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.icu_patient"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_reproduction_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.reproduction_rate": {
+			          "Target": {
+			            "Entity": "dados_covid.reproduction_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.reproduction_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_death_smoothed_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_death_smoothed_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.new_death_smoothed_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_death_smoothed_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_death_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_death_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.new_death_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_death_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_death_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_death_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.total_death_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_death_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_case_smoothed_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_case_smoothed_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.new_case_smoothed_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_case_smoothed_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_case_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_case_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.new_case_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_case_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_case_per_million": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_case_per_million": {
+			          "Target": {
+			            "Entity": "dados_covid.total_case_per_million"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_case_per_million"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_death_smoothed": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_death_smoothed": {
+			          "Target": {
+			            "Entity": "dados_covid.new_death_smoothed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_death_smoothed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_death": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_death": {
+			          "Target": {
+			            "Entity": "dados_covid.new_death"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_death"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_death": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_death": {
+			          "Target": {
+			            "Entity": "dados_covid.total_death"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_death"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_case_smoothed": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_case_smoothed": {
+			          "Target": {
+			            "Entity": "dados_covid.new_case_smoothed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_case_smoothed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_new_case": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.new_case": {
+			          "Target": {
+			            "Entity": "dados_covid.new_case"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.new_case"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_total_case": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.total_case": {
+			          "Target": {
+			            "Entity": "dados_covid.total_case"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.total_case"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.date": {
+			          "Target": {
+			            "Entity": "dados_covid.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.location": {
+			          "Target": {
+			            "Entity": "dados_covid.location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.continent": {
+			          "Target": {
+			            "Entity": "dados_covid.continent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_has_iso_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.iso_code": {
+			          "Target": {
+			            "Entity": "dados_covid.iso_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.iso_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_in_location": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.location": {
+			          "Target": {
+			            "Entity": "dados_covid.location"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dados_covid.location"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dados_covid.location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_in_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid": {
+			          "Target": {
+			            "Entity": "dados_covid"
+			          }
+			        },
+			        "dados_covid.continent": {
+			          "Target": {
+			            "Entity": "dados_covid.continent"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "dados_covid.continent"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "dados_covid"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "dados_covid.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_date_variação_date_hierarchy_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid.date.variação.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy"
+			          }
+			        },
+			        "dados_covid.date.variação.date_hierarchy.month": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid.date.variação.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date.variação.date_hierarchy.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    },
+			    "dados_covid_date_variação_date_hierarchy_has_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Dados Covid"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dados_covid.date.variação.date_hierarchy": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy"
+			          }
+			        },
+			        "dados_covid.date.variação.date_hierarchy.day": {
+			          "Target": {
+			            "Entity": "dados_covid.date.variação.date_hierarchy.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dados_covid.date.variação.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "dados_covid.date.variação.date_hierarchy.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

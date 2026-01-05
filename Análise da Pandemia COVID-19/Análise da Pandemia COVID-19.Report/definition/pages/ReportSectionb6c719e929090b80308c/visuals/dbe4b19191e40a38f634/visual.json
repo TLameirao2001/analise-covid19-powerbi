@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "dbe4b19191e40a38f634",
+  "position": {
+    "x": 210.71537448006819,
+    "y": 280.95383264009092,
+    "z": 3000,
+    "height": 157.14366910377967,
+    "width": 859.52825070400706
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Análise da Pandemia COVID-19",
+                    "textStyle": {
+                      "fontSize": "42pt",
+                      "color": "#f15628"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Power BI",
+                    "textStyle": {
+                      "fontSize": "42pt",
+                      "color": "#f15628"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
